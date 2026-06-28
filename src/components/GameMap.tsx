@@ -119,10 +119,16 @@ export default function GameMap({
       )}
       <FitBounds bounds={bounds} />
       <LeafletMarker position={[birth.lat, birth.lng]} icon={birthIcon}>
-        <Tooltip>Born {formatYear(birth.year)} &middot; {birth.place}</Tooltip>
+        <Tooltip>
+          Born {formatYear(birth.year)}
+          {showLabels ? ` \u00b7 ${birth.place}` : ""}
+        </Tooltip>
       </LeafletMarker>
       <LeafletMarker position={[death.lat, death.lng]} icon={deathIcon}>
-        <Tooltip>Died {formatYear(death.year)} &middot; {death.place}</Tooltip>
+        <Tooltip>
+          Died {formatYear(death.year)}
+          {showLabels ? ` \u00b7 ${death.place}` : ""}
+        </Tooltip>
       </LeafletMarker>
     </MapContainer>
   );
