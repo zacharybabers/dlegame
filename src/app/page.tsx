@@ -39,7 +39,10 @@ export default async function Home({
 
       <Game puzzle={puzzle} candidates={FIGURE_NAMES} dayNumber={dayNumber} />
 
-      <footer className="text-center text-xs text-zinc-400">Day #{dayNumber}</footer>
+      <footer className="flex items-center justify-between text-xs text-zinc-400">
+        <span>Day #{dayNumber}</span>
+        <span>by zjb</span>
+      </footer>
 
       {isDev && (
         <DevPanel
