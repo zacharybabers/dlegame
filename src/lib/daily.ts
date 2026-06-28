@@ -2,16 +2,17 @@ import { type Puzzle } from "@/lib/puzzle";
 import puzzlesData from "@/data/puzzles.json";
 
 /**
- * Epoch for day numbering (UTC midnight, 2024-01-01). The day number is the
- * count of whole UTC days since this instant, so every player worldwide is on
- * the same puzzle regardless of timezone.
+ * Epoch for day numbering (UTC midnight, 2026-06-28 = launch day). The day
+ * number is 1-based: launch day is #1, the next UTC day is #2, etc. Using UTC
+ * means every player worldwide is on the same puzzle regardless of timezone.
+ * To re-date the launch, change this to your desired day-#1 date.
  */
-const EPOCH_UTC = Date.UTC(2024, 0, 1);
+const EPOCH_UTC = Date.UTC(2026, 5, 28);
 const MS_PER_DAY = 86_400_000;
 
-/** Whole UTC days since the epoch. */
+/** 1-based puzzle number for the given instant (launch day = 1). */
 export function getDayNumber(now: number = Date.now()): number {
-  return Math.floor((now - EPOCH_UTC) / MS_PER_DAY);
+  return Math.floor((now - EPOCH_UTC) / MS_PER_DAY) + 1;
 }
 
 /** Milliseconds remaining until the next UTC midnight (next puzzle). */
@@ -27,10 +28,10 @@ export function msUntilNextUtcMidnight(now: number = Date.now()): number {
  */
 export const PUZZLES: Puzzle[] = puzzlesData as Puzzle[];
 
-/** Deterministically selects the puzzle for a given day number. */
+/** Deterministically selects the puzzle for a given (1-based) day number. */
 export function getDailyPuzzle(dayNumber: number): Puzzle {
   const n = PUZZLES.length;
-  const index = ((dayNumber % n) + n) % n; // safe for negative day numbers
+  const index = (((dayNumber - 1) % n) + n) % n; // day #1 -> PUZZLES[0]; safe for negatives
   return PUZZLES[index];
 }
 
