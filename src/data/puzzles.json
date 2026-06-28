@@ -1,0 +1,1799 @@
+[
+  {
+    "id": "michael-jackson",
+    "qid": "Q2831",
+    "answer": "Michael Jackson",
+    "aliases": [],
+    "hints": [
+      "A figure in music.",
+      "Singer.",
+      "American singer, songwriter, record producer, and dancer."
+    ],
+    "birth": {
+      "lat": 41.580833333,
+      "lng": -87.345555555,
+      "year": 1958,
+      "place": "Gary"
+    },
+    "death": {
+      "lat": 34.05223,
+      "lng": -118.24368,
+      "year": 2009,
+      "place": "Los Angeles"
+    },
+    "fame": 324,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "albert-einstein",
+    "qid": "Q937",
+    "answer": "Albert Einstein",
+    "aliases": [
+      "A. Einsten"
+    ],
+    "hints": [
+      "A figure in science.",
+      "Physicist.",
+      "German-born theoretical physicist."
+    ],
+    "birth": {
+      "lat": 48.398611111,
+      "lng": 9.991111111,
+      "year": 1879,
+      "place": "Ulm"
+    },
+    "death": {
+      "lat": 40.352222222,
+      "lng": -74.656944444,
+      "year": 1955,
+      "place": "Princeton"
+    },
+    "fame": 319,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "aristotle",
+    "qid": "Q868",
+    "answer": "Aristotle",
+    "aliases": [
+      "the Stagirite"
+    ],
+    "hints": [
+      "A philosopher.",
+      "Philosopher.",
+      "Classical Greek philosopher and polymath."
+    ],
+    "birth": {
+      "lat": 40.59083333,
+      "lng": 23.79416667,
+      "year": -383,
+      "place": "Stageira"
+    },
+    "death": {
+      "lat": 38.4624,
+      "lng": 23.5971,
+      "year": -321,
+      "place": "Chalcis"
+    },
+    "fame": 316,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "karl-marx",
+    "qid": "Q9061",
+    "answer": "Karl Marx",
+    "aliases": [],
+    "hints": [
+      "A philosopher.",
+      "Economist.",
+      "German-born philosopher."
+    ],
+    "birth": {
+      "lat": 49.75565,
+      "lng": 6.63935,
+      "year": 1818,
+      "place": "Trier"
+    },
+    "death": {
+      "lat": 51.507222222,
+      "lng": -0.1275,
+      "year": 1883,
+      "place": "London"
+    },
+    "fame": 310,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "confucius",
+    "qid": "Q4604",
+    "answer": "Confucius",
+    "aliases": [
+      "Confucio",
+      "Konfuzius"
+    ],
+    "hints": [
+      "A philosopher.",
+      "Philosopher.",
+      "Chinese philosopher and politician."
+    ],
+    "birth": {
+      "lat": 35.6,
+      "lng": 116.983333333,
+      "year": -550,
+      "place": "Qufu"
+    },
+    "death": {
+      "lat": 35.22528,
+      "lng": 116.65361,
+      "year": -478,
+      "place": "Si River"
+    },
+    "fame": 310,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "leonardo-da-vinci",
+    "qid": "Q762",
+    "answer": "Leonardo da Vinci",
+    "aliases": [],
+    "hints": [
+      "An artist.",
+      "Painter.",
+      "Italian Renaissance polymath."
+    ],
+    "birth": {
+      "lat": 43.799166666,
+      "lng": 10.938133333,
+      "year": 1452,
+      "place": "Anchiano"
+    },
+    "death": {
+      "lat": 47.41024,
+      "lng": 0.99204,
+      "year": 1519,
+      "place": "Clos Lucé"
+    },
+    "fame": 304,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "isaac-newton",
+    "qid": "Q935",
+    "answer": "Isaac Newton",
+    "aliases": [],
+    "hints": [
+      "A figure in science.",
+      "Mathematician.",
+      "President of the Royal Society."
+    ],
+    "birth": {
+      "lat": 52.809167,
+      "lng": -0.630556,
+      "year": 1643,
+      "place": "Woolsthorpe Manor"
+    },
+    "death": {
+      "lat": 51.5004,
+      "lng": -0.1909,
+      "year": 1727,
+      "place": "Kensington"
+    },
+    "fame": 302,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "nelson-mandela",
+    "qid": "Q8023",
+    "answer": "Nelson Mandela",
+    "aliases": [
+      "Nelson Rolihlahla Mandela",
+      "Mandela",
+      "Prisoner 46664",
+      "Madiba",
+      "Rolihllahla",
+      "Rolihllahla Mandela"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "President of South Africa."
+    ],
+    "birth": {
+      "lat": -31.95,
+      "lng": 28.516,
+      "year": 1918,
+      "place": "Mvezo"
+    },
+    "death": {
+      "lat": -26.15,
+      "lng": 28.05,
+      "year": 2013,
+      "place": "Houghton Estate"
+    },
+    "fame": 293,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "abraham-lincoln",
+    "qid": "Q91",
+    "answer": "Abraham Lincoln",
+    "aliases": [
+      "Honest Abe",
+      "President Lincoln",
+      "Abe Lincoln",
+      "Uncle Abe",
+      "A. Lincoln"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "President of the United States."
+    ],
+    "birth": {
+      "lat": 37.533333333,
+      "lng": -85.733333333,
+      "year": 1809,
+      "place": "Sinking Spring Farm"
+    },
+    "death": {
+      "lat": 38.896667,
+      "lng": -77.025833,
+      "year": 1865,
+      "place": "Petersen House"
+    },
+    "fame": 292,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "muhammad",
+    "qid": "Q9458",
+    "answer": "Muhammad",
+    "aliases": [],
+    "hints": [
+      "A religious figure.",
+      "Prophet.",
+      "Head of state."
+    ],
+    "birth": {
+      "lat": 21.4225,
+      "lng": 39.826111111,
+      "year": 571,
+      "place": "Mecca"
+    },
+    "death": {
+      "lat": 24.47,
+      "lng": 39.61,
+      "year": 632,
+      "place": "Medina"
+    },
+    "fame": 286,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "napoleon",
+    "qid": "Q517",
+    "answer": "Napoleon",
+    "aliases": [
+      "Empereur des Français Napoléon I",
+      "Napoleon Buonaparte",
+      "Napoleone Bonaparte",
+      "the Corsican Napolean",
+      "The Little Corporal",
+      "Napulione Buonaparte"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "Emperor of the French."
+    ],
+    "birth": {
+      "lat": 41.925555555,
+      "lng": 8.736388888,
+      "year": 1769,
+      "place": "Ajaccio"
+    },
+    "death": {
+      "lat": -15.950222,
+      "lng": -5.683022,
+      "year": 1821,
+      "place": "Longwood House"
+    },
+    "fame": 286,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "mahatma-gandhi",
+    "qid": "Q1001",
+    "answer": "Mahatma Gandhi",
+    "aliases": [
+      "M. K. Gandhi",
+      "Mohandas K Gandhi",
+      "M K Gandhi",
+      "Mohandas Gandhi",
+      "Gandhi",
+      "Mohandas K. Gandhi"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "Indian independence activist."
+    ],
+    "birth": {
+      "lat": 21.6425,
+      "lng": 69.604722222,
+      "year": 1869,
+      "place": "Porbandar"
+    },
+    "death": {
+      "lat": 28.601861111,
+      "lng": 77.214361111,
+      "year": 1948,
+      "place": "Gandhi Smriti"
+    },
+    "fame": 283,
+    "difficulty": 1,
+    "needsReview": false
+  },
+  {
+    "id": "leo-tolstoy",
+    "qid": "Q7243",
+    "answer": "Leo Tolstoy",
+    "aliases": [
+      "Count Lev Nikolayevich Tolstoy",
+      "Lev Nikolayevich Tolstoĭ",
+      "Leo Tolstoi",
+      "Tolstoĭ, Lev Nikolaevich, graf",
+      "Tolstoy, Leo, graf"
+    ],
+    "hints": [
+      "A writer.",
+      "Writer.",
+      "Russian author."
+    ],
+    "birth": {
+      "lat": 54.075127,
+      "lng": 37.526385,
+      "year": 1828,
+      "place": "Yasnaya Polyana"
+    },
+    "death": {
+      "lat": 53.2075,
+      "lng": 39.5375,
+      "year": 1910,
+      "place": "Astapovo"
+    },
+    "fame": 279,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "johann-wolfgang-von-goethe",
+    "qid": "Q5879",
+    "answer": "Johann Wolfgang von Goethe",
+    "aliases": [],
+    "hints": [
+      "A writer.",
+      "Writer.",
+      "German writer, artist, natural scientist and politician."
+    ],
+    "birth": {
+      "lat": 50.110555555,
+      "lng": 8.682222222,
+      "year": 1749,
+      "place": "Frankfurt"
+    },
+    "death": {
+      "lat": 50.981111111,
+      "lng": 11.329444444,
+      "year": 1832,
+      "place": "Weimar"
+    },
+    "fame": 278,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "wolfgang-amadeus-mozart",
+    "qid": "Q254",
+    "answer": "Wolfgang Amadeus Mozart",
+    "aliases": [
+      "Mozart",
+      "Joannes Chrysostomus Wolfgangus Theophilus Amadeus Mozart",
+      "Joannes Chrysostomus Wolfgangus Amadeus Mozart",
+      "V. A. Mocartas",
+      "Volphnkank Amedaios Motsart",
+      "Apollo Mozzart"
+    ],
+    "hints": [
+      "A figure in music.",
+      "Composer.",
+      "Austrian composer of the Classical period."
+    ],
+    "birth": {
+      "lat": 47.8,
+      "lng": 13.045,
+      "year": 1756,
+      "place": "Salzburg"
+    },
+    "death": {
+      "lat": 48.208333333,
+      "lng": 16.3725,
+      "year": 1791,
+      "place": "Vienna"
+    },
+    "fame": 274,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "ludwig-van-beethoven",
+    "qid": "Q255",
+    "answer": "Ludwig van Beethoven",
+    "aliases": [
+      "Ludvig van Beethoven",
+      "L. Bethovenas",
+      "Ludwik van Beethoven",
+      "Louis van Beethoven",
+      "L. v. Beethoven",
+      "L. van Betkhoven"
+    ],
+    "hints": [
+      "A figure in music.",
+      "Composer.",
+      "German composer."
+    ],
+    "birth": {
+      "lat": 50.735277777,
+      "lng": 7.102222222,
+      "year": 1770,
+      "place": "Bonn"
+    },
+    "death": {
+      "lat": 48.208333333,
+      "lng": 16.3725,
+      "year": 1827,
+      "place": "Vienna"
+    },
+    "fame": 273,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "the-buddha",
+    "qid": "Q9441",
+    "answer": "The Buddha",
+    "aliases": [
+      "Buddha",
+      "Bhagwan Buddha",
+      "Prabudha",
+      "Munish",
+      "Lord Buddha",
+      "Sakya-muni"
+    ],
+    "hints": [
+      "A philosopher.",
+      "Philosopher.",
+      "Indian philosopher and the founder of Buddhism."
+    ],
+    "birth": {
+      "lat": 27.4814,
+      "lng": 83.275829,
+      "year": -500,
+      "place": "Lumbini"
+    },
+    "death": {
+      "lat": 26.740277777,
+      "lng": 83.888888888,
+      "year": -500,
+      "place": "Kushinagar"
+    },
+    "fame": 273,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "dante-alighieri",
+    "qid": "Q1067",
+    "answer": "Dante Alighieri",
+    "aliases": [
+      "Dante",
+      "Durante degli Alighieri",
+      "Durante di Alighiero degli Alighieri"
+    ],
+    "hints": [
+      "A writer.",
+      "Poet.",
+      "Florentine poet, writer, and philosopher."
+    ],
+    "birth": {
+      "lat": 43.771388888,
+      "lng": 11.254166666,
+      "year": 1265,
+      "place": "Florence"
+    },
+    "death": {
+      "lat": 44.416111111,
+      "lng": 12.201666666,
+      "year": 1321,
+      "place": "Ravenna"
+    },
+    "fame": 269,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "galileo-galilei",
+    "qid": "Q307",
+    "answer": "Galileo Galilei",
+    "aliases": [],
+    "hints": [
+      "A figure in science.",
+      "Astronomer.",
+      "Italian polymath."
+    ],
+    "birth": {
+      "lat": 43.716666666,
+      "lng": 10.4,
+      "year": 1564,
+      "place": "Pisa"
+    },
+    "death": {
+      "lat": 43.75485,
+      "lng": 11.2518,
+      "year": 1642,
+      "place": "Arcetri"
+    },
+    "fame": 269,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "vincent-van-gogh",
+    "qid": "Q5582",
+    "answer": "Vincent van Gogh",
+    "aliases": [],
+    "hints": [
+      "An artist.",
+      "Painter.",
+      "Dutch painter."
+    ],
+    "birth": {
+      "lat": 51.4703,
+      "lng": 4.66,
+      "year": 1853,
+      "place": "Zundert"
+    },
+    "death": {
+      "lat": 49.071666666,
+      "lng": 2.174166666,
+      "year": 1890,
+      "place": "Auvers-sur-Oise"
+    },
+    "fame": 263,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "pablo-picasso",
+    "qid": "Q5593",
+    "answer": "Pablo Picasso",
+    "aliases": [
+      "Pablo Ruiz Y Picasso",
+      "Pablo Ruiz",
+      "Pablo Ruys Picasso",
+      "Pablo Ruiz Picasso",
+      "Pablo Ruys",
+      "Picasso"
+    ],
+    "hints": [
+      "An artist.",
+      "Painter.",
+      "Spanish painter and sculptor."
+    ],
+    "birth": {
+      "lat": 36.716666666,
+      "lng": -4.416666666,
+      "year": 1881,
+      "place": "Málaga"
+    },
+    "death": {
+      "lat": 43.594882,
+      "lng": 7.00506,
+      "year": 1973,
+      "place": "Mas Notre-Dame-de-Vie de Mougins"
+    },
+    "fame": 263,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "alexander-the-great",
+    "qid": "Q8409",
+    "answer": "Alexander the Great",
+    "aliases": [
+      "Alexander III of Macedon",
+      "Alexander",
+      "Eskandar",
+      "Sikandar",
+      "Alexander of Macedonia",
+      "Alexander III"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Military commander.",
+      "King of Macedonia."
+    ],
+    "birth": {
+      "lat": 40.76,
+      "lng": 22.519167,
+      "year": -355,
+      "place": "Pella"
+    },
+    "death": {
+      "lat": 32.5425,
+      "lng": 44.421111111,
+      "year": -322,
+      "place": "Babylon"
+    },
+    "fame": 260,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "michelangelo",
+    "qid": "Q5592",
+    "answer": "Michelangelo",
+    "aliases": [
+      "Michael Agnolo",
+      "Michael Angel",
+      "Michael Angelo Bonalotti",
+      "Michael Angelo Bonnarotti",
+      "Michael Angelo Buona Rota",
+      "Michael Angelo Buona Roti"
+    ],
+    "hints": [
+      "An artist.",
+      "Sculptor.",
+      "Italian artist and architect."
+    ],
+    "birth": {
+      "lat": 43.640833333,
+      "lng": 11.985833333,
+      "year": 1475,
+      "place": "Caprese Michelangelo"
+    },
+    "death": {
+      "lat": 41.893055555,
+      "lng": 12.482777777,
+      "year": 1564,
+      "place": "Rome"
+    },
+    "fame": 259,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "charlie-chaplin",
+    "qid": "Q882",
+    "answer": "Charlie Chaplin",
+    "aliases": [
+      "Charles Spencer Chaplin",
+      "Charles Chaplin",
+      "Sir Charles Spencer Chaplin",
+      "Chaplin",
+      "Charlot",
+      "Sir Charlie Chaplin"
+    ],
+    "hints": [
+      "A performer or entertainer.",
+      "Film director.",
+      "English comic actor and filmmaker."
+    ],
+    "birth": {
+      "lat": 51.4898,
+      "lng": -0.0905,
+      "year": 1889,
+      "place": "Walworth"
+    },
+    "death": {
+      "lat": 46.466666666,
+      "lng": 6.85,
+      "year": 1977,
+      "place": "Corsier-sur-Vevey"
+    },
+    "fame": 259,
+    "difficulty": 2,
+    "needsReview": false
+  },
+  {
+    "id": "johann-sebastian-bach",
+    "qid": "Q1339",
+    "answer": "Johann Sebastian Bach",
+    "aliases": [
+      "J S Bach"
+    ],
+    "hints": [
+      "A figure in music.",
+      "Composer.",
+      "German composer."
+    ],
+    "birth": {
+      "lat": 50.974722222,
+      "lng": 10.324444444,
+      "year": 1685,
+      "place": "Eisenach"
+    },
+    "death": {
+      "lat": 51.3406321,
+      "lng": 12.3747329,
+      "year": 1750,
+      "place": "Leipzig"
+    },
+    "fame": 258,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "winston-churchill",
+    "qid": "Q8016",
+    "answer": "Winston Churchill",
+    "aliases": [
+      "Winston Spencer Churchill",
+      "Charles Maurin",
+      "David Winter",
+      "The Honourable Sir Winston Spencer Churchill",
+      "Colonel Warden",
+      "Sir Leonard Spencer"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "Prime Minister of the United Kingdom."
+    ],
+    "birth": {
+      "lat": 51.841362665,
+      "lng": -1.360948307,
+      "year": 1874,
+      "place": "Blenheim Palace"
+    },
+    "death": {
+      "lat": 51.5004,
+      "lng": -0.182722,
+      "year": 1965,
+      "place": "Hyde Park Gate"
+    },
+    "fame": 257,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "friedrich-nietzsche",
+    "qid": "Q9358",
+    "answer": "Friedrich Nietzsche",
+    "aliases": [],
+    "hints": [
+      "A philosopher.",
+      "Philosopher.",
+      "German philosopher."
+    ],
+    "birth": {
+      "lat": 51.240833333,
+      "lng": 12.116111111,
+      "year": 1844,
+      "place": "Röcken"
+    },
+    "death": {
+      "lat": 50.981111111,
+      "lng": 11.329444444,
+      "year": 1900,
+      "place": "Weimar"
+    },
+    "fame": 254,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "fyodor-dostoyevsky",
+    "qid": "Q991",
+    "answer": "Fyodor Dostoyevsky",
+    "aliases": [
+      "Dostoievski",
+      "Fyodor Dostoievski",
+      "Fyodor Mikhaylovich Dostoievski",
+      "Fyodor Mikhaylovich Dostoyevsky",
+      "Fyodor Mikhailovich Dostoevsky",
+      "F.M. Dostoiewski"
+    ],
+    "hints": [
+      "A writer.",
+      "Novelist.",
+      "Russian novelist."
+    ],
+    "birth": {
+      "lat": 55.783611111,
+      "lng": 37.611944444,
+      "year": 1821,
+      "place": "Mariinsky Hospital for the Poor"
+    },
+    "death": {
+      "lat": 59.95,
+      "lng": 30.316666666,
+      "year": 1881,
+      "place": "Saint Petersburg"
+    },
+    "fame": 253,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "elizabeth-ii",
+    "qid": "Q9682",
+    "answer": "Elizabeth II",
+    "aliases": [],
+    "hints": [
+      "A political or military leader.",
+      "Monarch.",
+      "Queen of the United Kingdom."
+    ],
+    "birth": {
+      "lat": 51.5103,
+      "lng": -0.1456,
+      "year": 1926,
+      "place": "17 Bruton Street, Mayfair"
+    },
+    "death": {
+      "lat": 57.0407,
+      "lng": -3.23016,
+      "year": 2022,
+      "place": "Balmoral Castle"
+    },
+    "fame": 253,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "mustafa-kemal-ataturk",
+    "qid": "Q5152",
+    "answer": "Mustafa Kemal Atatürk",
+    "aliases": [
+      "Mustapha Kemal Pasha",
+      "Mustafa Kemal Paşa",
+      "Mustafa Kemal Pascha",
+      "Mustafa Pascha Kemal",
+      "Kemal Pasha",
+      "Gazi Mustafa Kemal Pasha"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "President of Turkey."
+    ],
+    "birth": {
+      "lat": 40.640277777,
+      "lng": 22.935555555,
+      "year": 1881,
+      "place": "Thessaloniki"
+    },
+    "death": {
+      "lat": 41.039444444,
+      "lng": 29.001666666,
+      "year": 1938,
+      "place": "Dolmabahçe Palace"
+    },
+    "fame": 253,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "thomas-edison",
+    "qid": "Q8743",
+    "answer": "Thomas Edison",
+    "aliases": [],
+    "hints": [
+      "A figure in science.",
+      "Engineer.",
+      "American inventor and businessman."
+    ],
+    "birth": {
+      "lat": 41.29306,
+      "lng": -82.60111,
+      "year": 1847,
+      "place": "Milan"
+    },
+    "death": {
+      "lat": 40.798611111,
+      "lng": -74.239166666,
+      "year": 1931,
+      "place": "West Orange"
+    },
+    "fame": 251,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "mark-twain",
+    "qid": "Q7245",
+    "answer": "Mark Twain",
+    "aliases": [
+      "Samuel Langhorne Clemens",
+      "Thomas Jefferson Snodgrass"
+    ],
+    "hints": [
+      "A writer.",
+      "Author.",
+      "American author and humorist."
+    ],
+    "birth": {
+      "lat": 39.491694444,
+      "lng": -91.79025,
+      "year": 1835,
+      "place": "Florida"
+    },
+    "death": {
+      "lat": 41.304444444,
+      "lng": -73.392777777,
+      "year": 1910,
+      "place": "Redding"
+    },
+    "fame": 251,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "john-f-kennedy",
+    "qid": "Q9696",
+    "answer": "John F. Kennedy",
+    "aliases": [
+      "Kennedy",
+      "President Kennedy",
+      "John Fitzgerald Kennedy",
+      "John Fitzgerald \"Jack\" Kennedy",
+      "JF Kennedy",
+      "John F Kennedy"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "President of the United States."
+    ],
+    "birth": {
+      "lat": 42.331666666,
+      "lng": -71.121666666,
+      "year": 1917,
+      "place": "Brookline"
+    },
+    "death": {
+      "lat": 32.811111111,
+      "lng": -96.838333333,
+      "year": 1963,
+      "place": "Parkland Memorial Hospital"
+    },
+    "fame": 250,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "sigmund-freud",
+    "qid": "Q9215",
+    "answer": "Sigmund Freud",
+    "aliases": [],
+    "hints": [
+      "A figure in science.",
+      "Psychiatrist.",
+      "Austrian psychiatrist and founder of psychoanalysis."
+    ],
+    "birth": {
+      "lat": 49.640926771,
+      "lng": 18.145022037,
+      "year": 1856,
+      "place": "Příbor"
+    },
+    "death": {
+      "lat": 51.507222222,
+      "lng": -0.1275,
+      "year": 1939,
+      "place": "London"
+    },
+    "fame": 249,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "rene-descartes",
+    "qid": "Q9191",
+    "answer": "René Descartes",
+    "aliases": [],
+    "hints": [
+      "A philosopher.",
+      "Philosopher.",
+      "French philosopher, mathematician, and scientist."
+    ],
+    "birth": {
+      "lat": 46.973611111,
+      "lng": 0.697777777,
+      "year": 1596,
+      "place": "Descartes"
+    },
+    "death": {
+      "lat": 59.329444444,
+      "lng": 18.068611111,
+      "year": 1650,
+      "place": "Stockholm"
+    },
+    "fame": 249,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "miguel-de-cervantes",
+    "qid": "Q5682",
+    "answer": "Miguel de Cervantes",
+    "aliases": [
+      "Miguel de Cervantes y Saavedra",
+      "Miguel de Cervantes Cortinas",
+      "Miguel de Cervantes y Cortinas",
+      "Miguel de Cerbantes",
+      "Miguel de Cerbantes Saavedra",
+      "Miguel de Cervantes-Saavedra"
+    ],
+    "hints": [
+      "A writer.",
+      "Novelist.",
+      "Spanish novelist, poet, and playwright."
+    ],
+    "birth": {
+      "lat": 40.481815,
+      "lng": -3.364305,
+      "year": 1547,
+      "place": "Alcalá de Henares"
+    },
+    "death": {
+      "lat": 40.416944444,
+      "lng": -3.703333333,
+      "year": 1616,
+      "place": "Madrid"
+    },
+    "fame": 247,
+    "difficulty": 3,
+    "needsReview": false
+  },
+  {
+    "id": "augustus",
+    "qid": "Q1405",
+    "answer": "Augustus",
+    "aliases": [
+      "Caesar Augustus",
+      "Gaius Julius Caesar",
+      "Gaius Julius Caesar Augustus",
+      "Gaius Octavius Thurinus",
+      "Octavian",
+      "Imperator Gaius Julius Caesar Octavianus Divi Filius Augustus"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "Roman emperor."
+    ],
+    "birth": {
+      "lat": 41.893055555,
+      "lng": 12.482777777,
+      "year": -62,
+      "place": "Rome"
+    },
+    "death": {
+      "lat": 40.925875,
+      "lng": 14.528564,
+      "year": 14,
+      "place": "Nola"
+    },
+    "fame": 246,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "charles-dickens",
+    "qid": "Q5686",
+    "answer": "Charles Dickens",
+    "aliases": [
+      "Dickens",
+      "Boz",
+      "C. Dickens"
+    ],
+    "hints": [
+      "A writer.",
+      "Writer.",
+      "English novelist and social critic."
+    ],
+    "birth": {
+      "lat": 50.803,
+      "lng": -1.087,
+      "year": 1812,
+      "place": "Landport"
+    },
+    "death": {
+      "lat": 51.4112,
+      "lng": 0.4579,
+      "year": 1870,
+      "place": "Gads Hill Place"
+    },
+    "fame": 246,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "martin-luther-king-jr",
+    "qid": "Q8027",
+    "answer": "Martin Luther King Jr.",
+    "aliases": [],
+    "hints": [
+      "A religious figure.",
+      "Preacher.",
+      "American Baptist minister and civil rights leader."
+    ],
+    "birth": {
+      "lat": 33.754444444,
+      "lng": -84.389722222,
+      "year": 1929,
+      "place": "Atlanta"
+    },
+    "death": {
+      "lat": 35.146111111,
+      "lng": -90.051944444,
+      "year": 1968,
+      "place": "Memphis"
+    },
+    "fame": 245,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "alexander-pushkin",
+    "qid": "Q7200",
+    "answer": "Alexander Pushkin",
+    "aliases": [
+      "Alexander Sergeyevich Pushkin",
+      "Aleksandr Sergeyevich Pushkin",
+      "Aleksandr Pushkin",
+      "Aleksandr Serge'evich Pushkin",
+      "Pushkin",
+      "Pouchkine Aleksandr Sergueevitch"
+    ],
+    "hints": [
+      "A writer.",
+      "Poet.",
+      "Russian poet, playwright, and novelist."
+    ],
+    "birth": {
+      "lat": 55.750555555,
+      "lng": 37.6175,
+      "year": 1799,
+      "place": "Moscow"
+    },
+    "death": {
+      "lat": 59.95,
+      "lng": 30.316666666,
+      "year": 1837,
+      "place": "Saint Petersburg"
+    },
+    "fame": 244,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "virgil",
+    "qid": "Q1398",
+    "answer": "Virgil",
+    "aliases": [
+      "Publius Vergilius Maro",
+      "Vergil",
+      "Mantuan Swan",
+      "Swan of Mantua"
+    ],
+    "hints": [
+      "A writer.",
+      "Poet.",
+      "Roman poet."
+    ],
+    "birth": {
+      "lat": 45.1252,
+      "lng": 10.82393,
+      "year": -69,
+      "place": "Andes"
+    },
+    "death": {
+      "lat": 40.638333333,
+      "lng": 17.945833333,
+      "year": -18,
+      "place": "Brindisi"
+    },
+    "fame": 244,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "marie-curie",
+    "qid": "Q7186",
+    "answer": "Marie Curie",
+    "aliases": [
+      "Marie Sklodowska-Curie"
+    ],
+    "hints": [
+      "A figure in science.",
+      "Physicist.",
+      "Polish-French physicist and chemist."
+    ],
+    "birth": {
+      "lat": 52.23,
+      "lng": 21.011111111,
+      "year": 1867,
+      "place": "Warsaw"
+    },
+    "death": {
+      "lat": 45.939223821,
+      "lng": 6.715230061,
+      "year": 1934,
+      "place": "Sancellemoz"
+    },
+    "fame": 244,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "franklin-delano-roosevelt",
+    "qid": "Q8007",
+    "answer": "Franklin Delano Roosevelt",
+    "aliases": [
+      "FDR",
+      "Franklin D. Roosevelt",
+      "Franklin Roosevelt",
+      "Roosevelt",
+      "President Roosevelt",
+      "F. D. Roosevelt"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "President of the United States."
+    ],
+    "birth": {
+      "lat": 41.784722222,
+      "lng": -73.933333333,
+      "year": 1882,
+      "place": "Hyde Park"
+    },
+    "death": {
+      "lat": 32.881393,
+      "lng": -84.687648,
+      "year": 1945,
+      "place": "Little White House"
+    },
+    "fame": 244,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "hans-christian-andersen",
+    "qid": "Q5673",
+    "answer": "Hans Christian Andersen",
+    "aliases": [
+      "Hans Andersen"
+    ],
+    "hints": [
+      "A writer.",
+      "Writer.",
+      "Danish writer and poet."
+    ],
+    "birth": {
+      "lat": 55.4,
+      "lng": 10.383333333,
+      "year": 1805,
+      "place": "Odense"
+    },
+    "death": {
+      "lat": 55.7039,
+      "lng": 12.5845,
+      "year": 1875,
+      "place": "Rolighed"
+    },
+    "fame": 243,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "christopher-columbus",
+    "qid": "Q7322",
+    "answer": "Christopher Columbus",
+    "aliases": [
+      "Cristoforo Colombo",
+      "Columbus",
+      "Cristóbal Colón",
+      "Cristobal Colon",
+      "Christofer Columbus",
+      "Cristoffer Columbus"
+    ],
+    "hints": [
+      "An explorer.",
+      "Explorer.",
+      "Italian navigator, explorer, and colonist."
+    ],
+    "birth": {
+      "lat": 44.407186111,
+      "lng": 8.933983333,
+      "year": 1451,
+      "place": "Genoa"
+    },
+    "death": {
+      "lat": 41.651980555,
+      "lng": -4.728561111,
+      "year": 1506,
+      "place": "Valladolid"
+    },
+    "fame": 242,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "anton-chekhov",
+    "qid": "Q5685",
+    "answer": "Anton Chekhov",
+    "aliases": [
+      "Anton Pavlovich Chekhov",
+      "Antón Pávlovič Čéhov",
+      "Antón Pávlovich Chékhov",
+      "Chekhov"
+    ],
+    "hints": [
+      "A writer.",
+      "Playwright.",
+      "Russian dramatist and author."
+    ],
+    "birth": {
+      "lat": 47.233333333,
+      "lng": 38.9,
+      "year": 1860,
+      "place": "Taganrog"
+    },
+    "death": {
+      "lat": 47.801666666,
+      "lng": 7.671944444,
+      "year": 1904,
+      "place": "Badenweiler"
+    },
+    "fame": 238,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "franz-kafka",
+    "qid": "Q905",
+    "answer": "Franz Kafka",
+    "aliases": [
+      "František Kafka",
+      "Kafka"
+    ],
+    "hints": [
+      "A writer.",
+      "Novelist.",
+      "Bohemian writer from Prague."
+    ],
+    "birth": {
+      "lat": 50.0875,
+      "lng": 14.421388888,
+      "year": 1883,
+      "place": "Prague"
+    },
+    "death": {
+      "lat": 48.3086,
+      "lng": 16.26921,
+      "year": 1924,
+      "place": "Kafka Sterbehaus"
+    },
+    "fame": 238,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "pope-francis",
+    "qid": "Q450675",
+    "answer": "Pope Francis",
+    "aliases": [
+      "Francisco",
+      "Pope Francis I",
+      "Franciscus I",
+      "François Bergoglio",
+      "Francis",
+      "Pope Franciscus"
+    ],
+    "hints": [
+      "A religious figure.",
+      "Religious leader.",
+      "Pope."
+    ],
+    "birth": {
+      "lat": -34.633333333,
+      "lng": -58.466666666,
+      "year": 1936,
+      "place": "Flores"
+    },
+    "death": {
+      "lat": 41.900555555,
+      "lng": 12.453333333,
+      "year": 2025,
+      "place": "Domus Sanctae Marthae"
+    },
+    "fame": 235,
+    "difficulty": 4,
+    "needsReview": false
+  },
+  {
+    "id": "jean-jacques-rousseau",
+    "qid": "Q6527",
+    "answer": "Jean-Jacques Rousseau",
+    "aliases": [
+      "Citizen of Geneva"
+    ],
+    "hints": [
+      "A philosopher.",
+      "Philosopher.",
+      "Genevan philosopher, writer, and composer."
+    ],
+    "birth": {
+      "lat": 46.2,
+      "lng": 6.15,
+      "year": 1712,
+      "place": "Geneva"
+    },
+    "death": {
+      "lat": 49.126111111,
+      "lng": 2.695833333,
+      "year": 1778,
+      "place": "Ermenonville"
+    },
+    "fame": 229,
+    "difficulty": 5,
+    "needsReview": false
+  },
+  {
+    "id": "steve-jobs",
+    "qid": "Q19837",
+    "answer": "Steve Jobs",
+    "aliases": [
+      "T. Lateef"
+    ],
+    "hints": [
+      "A business figure.",
+      "Entrepreneur.",
+      "American entrepreneur; co-founder of Apple Inc.."
+    ],
+    "birth": {
+      "lat": 37.775,
+      "lng": -122.419444444,
+      "year": 1955,
+      "place": "San Francisco"
+    },
+    "death": {
+      "lat": 37.416667,
+      "lng": -122.133333,
+      "year": 2011,
+      "place": "Palo Alto"
+    },
+    "fame": 228,
+    "difficulty": 5,
+    "needsReview": false
+  },
+  {
+    "id": "edgar-allan-poe",
+    "qid": "Q16867",
+    "answer": "Edgar Allan Poe",
+    "aliases": [
+      "Poe",
+      "Edgar Poe",
+      "E. A. Poe",
+      "Edgar A. Poe",
+      "Quarles"
+    ],
+    "hints": [
+      "A writer.",
+      "Poet.",
+      "American writer and literary critic."
+    ],
+    "birth": {
+      "lat": 42.360277777,
+      "lng": -71.057777777,
+      "year": 1809,
+      "place": "Boston"
+    },
+    "death": {
+      "lat": 39.286388888,
+      "lng": -76.615,
+      "year": 1849,
+      "place": "Baltimore"
+    },
+    "fame": 226,
+    "difficulty": 5,
+    "needsReview": false
+  },
+  {
+    "id": "che-guevara",
+    "qid": "Q5809",
+    "answer": "Che Guevara",
+    "aliases": [
+      "Ernesto Guevara",
+      "El Che",
+      "Che",
+      "Ernesto Guevara de la Serna"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "Argentine Marxist revolutionary."
+    ],
+    "birth": {
+      "lat": -32.9575,
+      "lng": -60.639444444,
+      "year": 1928,
+      "place": "Rosario"
+    },
+    "death": {
+      "lat": -18.795,
+      "lng": -64.201388888,
+      "year": 1967,
+      "place": "La Higuera"
+    },
+    "fame": 226,
+    "difficulty": 5,
+    "needsReview": false
+  },
+  {
+    "id": "augustine-of-hippo",
+    "qid": "Q8018",
+    "answer": "Augustine of Hippo",
+    "aliases": [
+      "Saint Augustine",
+      "Saint Austin",
+      "Augustine",
+      "St. Augoustinos",
+      "St. Augustine of Hippo",
+      "Aurelius Augustinus"
+    ],
+    "hints": [
+      "A philosopher.",
+      "Philosopher.",
+      "Christian theologian, philosopher, and saint."
+    ],
+    "birth": {
+      "lat": 36.266667,
+      "lng": 7.933333,
+      "year": 354,
+      "place": "Thagaste"
+    },
+    "death": {
+      "lat": 36.8825,
+      "lng": 7.75,
+      "year": 430,
+      "place": "Hippo Regius"
+    },
+    "fame": 226,
+    "difficulty": 5,
+    "needsReview": false
+  },
+  {
+    "id": "oscar-wilde",
+    "qid": "Q30875",
+    "answer": "Oscar Wilde",
+    "aliases": [
+      "Oscar O'Flahertie Wills Wilde",
+      "Oscar Fingal O'Fflahertie Wills Wilde",
+      "Oscar O'Fflahertie Wills Wilde"
+    ],
+    "hints": [
+      "A writer.",
+      "Poet.",
+      "Irish poet, playwright, and aesthete."
+    ],
+    "birth": {
+      "lat": 53.349722222,
+      "lng": -6.260277777,
+      "year": 1854,
+      "place": "Dublin"
+    },
+    "death": {
+      "lat": 48.850530555,
+      "lng": 2.332233333,
+      "year": 1900,
+      "place": "6th arrondissement of Paris"
+    },
+    "fame": 220,
+    "difficulty": 5,
+    "needsReview": false
+  },
+  {
+    "id": "lord-byron",
+    "qid": "Q5679",
+    "answer": "Lord Byron",
+    "aliases": [
+      "George Gordon Byron",
+      "George Gordon Byron, 6th Baron Byron",
+      "Noel Byron",
+      "George Gordon Byron Lord",
+      "George Gordon Byron, 6th Lord Byron"
+    ],
+    "hints": [
+      "A writer.",
+      "Poet.",
+      "English Romantic poet and lyricist."
+    ],
+    "birth": {
+      "lat": 51.4975,
+      "lng": -0.137222222,
+      "year": 1788,
+      "place": "City of Westminster"
+    },
+    "death": {
+      "lat": 38.368611111,
+      "lng": 21.428888888,
+      "year": 1824,
+      "place": "Missolonghi"
+    },
+    "fame": 219,
+    "difficulty": 5,
+    "needsReview": false
+  },
+  {
+    "id": "neil-armstrong",
+    "qid": "Q1615",
+    "answer": "Neil Armstrong",
+    "aliases": [],
+    "hints": [
+      "An explorer.",
+      "Astronaut.",
+      "American astronaut and lunar explorer."
+    ],
+    "birth": {
+      "lat": 40.569167,
+      "lng": -84.194167,
+      "year": 1930,
+      "place": "Wapakoneta"
+    },
+    "death": {
+      "lat": 39.1,
+      "lng": -84.5125,
+      "year": 2012,
+      "place": "Cincinnati"
+    },
+    "fame": 218,
+    "difficulty": 5,
+    "needsReview": false
+  },
+  {
+    "id": "charles-de-gaulle",
+    "qid": "Q2042",
+    "answer": "Charles de Gaulle",
+    "aliases": [
+      "General Charles Andre Joseph Marie de Gaulle"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Statesperson.",
+      "President of the French Republic."
+    ],
+    "birth": {
+      "lat": 50.631944444,
+      "lng": 3.0575,
+      "year": 1890,
+      "place": "Lille"
+    },
+    "death": {
+      "lat": 48.223333333,
+      "lng": 4.885833333,
+      "year": 1970,
+      "place": "Colombey-les-Deux-Églises"
+    },
+    "fame": 218,
+    "difficulty": 5,
+    "needsReview": false
+  },
+  {
+    "id": "otto-von-bismarck",
+    "qid": "Q8442",
+    "answer": "Otto von Bismarck",
+    "aliases": [
+      "Otto Eduard Leopold, Prince of Bismarck, Duke of Lauenburg",
+      "Iron Chancellor",
+      "Prince Bismarck",
+      "Eduard Leopold, Prince von Bismarck-Schönhausen"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "Minister President of Prussia."
+    ],
+    "birth": {
+      "lat": 52.578611111,
+      "lng": 12.039722222,
+      "year": 1815,
+      "place": "Schönhausen (Elbe)"
+    },
+    "death": {
+      "lat": 53.529461111,
+      "lng": 10.340338888,
+      "year": 1898,
+      "place": "Friedrichsruh"
+    },
+    "fame": 218,
+    "difficulty": 5,
+    "needsReview": false
+  },
+  {
+    "id": "benjamin-franklin",
+    "qid": "Q34969",
+    "answer": "Benjamin Franklin",
+    "aliases": [
+      "The First American",
+      "Poor Richard"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "President of the Supreme Executive Council of Pennsylvania."
+    ],
+    "birth": {
+      "lat": 42.360277777,
+      "lng": -71.057777777,
+      "year": 1706,
+      "place": "Boston"
+    },
+    "death": {
+      "lat": 39.952777777,
+      "lng": -75.163611111,
+      "year": 1790,
+      "place": "Philadelphia"
+    },
+    "fame": 216,
+    "difficulty": 5,
+    "needsReview": false
+  },
+  {
+    "id": "elvis-presley",
+    "qid": "Q303",
+    "answer": "Elvis Presley",
+    "aliases": [
+      "Elvis",
+      "King of Rock'n'Roll",
+      "Elvis A. Presley",
+      "The King of Rock'n'Roll",
+      "Elvis Aaron Presley"
+    ],
+    "hints": [
+      "A figure in music.",
+      "Singer.",
+      "American singer and actor."
+    ],
+    "birth": {
+      "lat": 34.257611111,
+      "lng": -88.703388888,
+      "year": 1935,
+      "place": "Tupelo"
+    },
+    "death": {
+      "lat": 35.146111111,
+      "lng": -90.051944444,
+      "year": 1977,
+      "place": "Memphis"
+    },
+    "fame": 216,
+    "difficulty": 5,
+    "needsReview": false
+  }
+]

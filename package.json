@@ -6,9 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "build:data": "node scripts/build-data.mjs",
+    "build:names": "node scripts/build-names.mjs",
+    "review": "node scripts/review.mjs"
   },
   "dependencies": {
+    "fuse.js": "^7.4.2",
     "leaflet": "^1.9.4",
     "next": "16.2.9",
     "react": "19.2.4",

@@ -20,13 +20,22 @@ const GameMap = dynamic(() => import("@/components/GameMap"), {
 export default function MapPanel({
   birth,
   death,
+  showLabels = false,
+  colorblind = false,
 }: {
   birth: Marker;
   death: Marker;
+  showLabels?: boolean;
+  colorblind?: boolean;
 }) {
   return (
-    <div className="h-[60vh] w-full overflow-hidden rounded-xl border border-zinc-200 shadow-sm dark:border-zinc-800">
-      <GameMap birth={birth} death={death} />
+    <div className="h-[60vh] min-h-[340px] w-full overflow-hidden rounded-xl border border-zinc-200 shadow-sm dark:border-zinc-800">
+      <GameMap
+        birth={birth}
+        death={death}
+        showLabels={showLabels}
+        colorblind={colorblind}
+      />
     </div>
   );
 }

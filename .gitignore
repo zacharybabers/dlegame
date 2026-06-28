@@ -42,3 +42,4 @@ next-env.d.ts
 
 # session plan (local only)
 plan.md
+dev.log

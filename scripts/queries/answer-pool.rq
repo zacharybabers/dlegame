@@ -1,0 +1,38 @@
+# born2die — answer-pool query (Phase 1a, validated against query.wikidata.org)
+#
+# Returns deceased humans (P31=Q5) who have BOTH a birthplace (P19) and place of
+# death (P20) with coordinates (P625), plus birth/death years and a fame proxy
+# (Wikipedia sitelink count). Occupation is deliberately NOT joined here — it
+# multiplies rows (e.g. Einstein has ~14 occupations) and made the shared public
+# endpoint time out (504). The export script fetches occupations per-figure.
+#
+# Post-processing done by the export script (NOT in SPARQL, to keep it light):
+#   - dedupe by ?person QID (multiple date/coord statements can repeat a person)
+#   - drop "same-place" figures (birth/death coords within ~25 km)
+#   - apply the sensitive-figure blocklist
+#   - map occupation/position -> hint ladder (never dates)
+#
+# Tune ?sitelinks threshold to grow/shrink the pool. 120 -> ~52 ultra-famous.
+
+SELECT DISTINCT ?person ?personLabel ?birthYear ?bpLabel ?bpCoord ?deathYear ?dpLabel ?dpCoord ?sitelinks
+WHERE {
+  ?person wdt:P31 wd:Q5 ;
+          wdt:P569 ?birth ;
+          wdt:P570 ?death ;
+          wdt:P19 ?bp ;
+          wdt:P20 ?dp ;
+          wikibase:sitelinks ?sitelinks .
+  FILTER(?sitelinks >= 120)
+  ?bp wdt:P625 ?bpCoord .
+  ?dp wdt:P625 ?dpCoord .
+  BIND(YEAR(?birth) AS ?birthYear)
+  BIND(YEAR(?death) AS ?deathYear)
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en".
+    ?person rdfs:label ?personLabel.
+    ?bp rdfs:label ?bpLabel.
+    ?dp rdfs:label ?dpLabel.
+  }
+}
+ORDER BY DESC(?sitelinks)
+LIMIT 200
