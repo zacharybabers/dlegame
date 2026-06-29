@@ -10,6 +10,7 @@ import { MAX_GUESSES } from "@/lib/constants";
 import { isCorrectGuess, type Puzzle } from "@/lib/puzzle";
 import { buildShareText } from "@/lib/share";
 import { useColorblind } from "@/lib/settings";
+import { reportResult } from "@/lib/telemetry";
 import {
   loadProgress,
   loadStats,
@@ -101,6 +102,8 @@ export default function Game({
     if (newStatus !== "playing") {
       // recordResult is idempotent per day (guards on lastCompletedDay).
       setStats(recordResult(dayNumber, won, next.length));
+      // Fire-and-forget global telemetry (deduped + never throws).
+      reportResult(dayNumber, won, next.length);
     }
   }
 

@@ -12,6 +12,7 @@
     "review": "node scripts/review.mjs"
   },
   "dependencies": {
+    "@upstash/redis": "^1.38.0",
     "fuse.js": "^7.4.2",
     "leaflet": "^1.9.4",
     "next": "16.2.9",
