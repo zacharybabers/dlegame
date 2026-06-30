@@ -18,8 +18,8 @@
     "note": "Picked 'writer'; he is the Pope."
   },
   "Q868": {
-    "hints": ["A philosopher.", "Philosopher.", "Classical Greek philosopher and polymath."],
-    "note": "Polymath picked 'biologist'; primarily a philosopher."
+    "hints": ["A philosopher.", "Classical Greek polymath.", "Father of formal logic, he wrote foundational works on physics, biology, ethics, and poetics."],
+    "note": "Polymath picked 'biologist'; primarily a philosopher. Hints hand-curated vague->specific."
   },
   "Q9061": {
     "hints": ["A philosopher.", "Economist.", "German-born philosopher."],
