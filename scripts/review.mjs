@@ -23,19 +23,19 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO = join(__dirname, "..");
 const PUZZLES_PATH = join(REPO, "src", "data", "puzzles.json");
 
-// Keep in sync with src/lib/daily.ts
-const EPOCH_UTC = Date.UTC(2024, 0, 1);
+// Keep in sync with src/lib/daily.ts (1-based day numbering; day #1 = launch).
+const EPOCH_UTC = Date.UTC(2026, 5, 28);
 const MS_PER_DAY = 86_400_000;
 
 const getDayNumber = (now = Date.now()) =>
-  Math.floor((now - EPOCH_UTC) / MS_PER_DAY);
+  Math.floor((now - EPOCH_UTC) / MS_PER_DAY) + 1;
 
-/** Maps a day number to its index in the rotation (safe for negatives). */
-const rotationIndex = (dayNumber, n) => ((dayNumber % n) + n) % n;
+/** Maps a (1-based) day number to its index in the rotation (safe for negatives). */
+const rotationIndex = (dayNumber, n) => (((dayNumber - 1) % n) + n) % n;
 
-/** UTC calendar date (YYYY-MM-DD, Sat/Sun…) for a given day number. */
+/** UTC calendar date (YYYY-MM-DD, Sat/Sun…) for a given (1-based) day number. */
 function dateForDay(dayNumber) {
-  const d = new Date(EPOCH_UTC + dayNumber * MS_PER_DAY);
+  const d = new Date(EPOCH_UTC + (dayNumber - 1) * MS_PER_DAY);
   const iso = d.toISOString().slice(0, 10);
   const dow = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][d.getUTCDay()];
   return `${iso} ${dow}`;

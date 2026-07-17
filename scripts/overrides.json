@@ -1,62 +1,150 @@
 {
   "_README": "Human curation layer for the answer pool, keyed by Wikidata QID. build-data.mjs deep-merges these fields on top of each generated record right before writing puzzles.json, so manual fixes survive `npm run build:data`. Supported per-QID keys: any Puzzle field (hints, aliases, answer, birth, death) to override the generated value, plus the control keys `exclude` (true = drop from the pool, supersedes the old in-code BLOCKLIST) and `note` (free-text rationale, ignored by the build). An override that supplies fields implies the entry is human-reviewed, so its needsReview flag is forced false. The build warns about stale overrides whose QID never appears in the pool. Keys starting with underscore are ignored.",
-
   "Q5879": {
-    "hints": ["A writer.", "Writer.", "German writer, artist, natural scientist and politician."],
+    "hints": [
+      "A writer.",
+      "Writer.",
+      "German writer, artist, natural scientist and politician."
+    ],
     "note": "Wikidata lists 'politician' first; Goethe is famous as a writer."
   },
   "Q9215": {
-    "hints": ["A figure in science.", "Psychiatrist.", "Austrian psychiatrist and founder of psychoanalysis."],
+    "hints": [
+      "A figure in science.",
+      "Psychiatrist.",
+      "Austrian psychiatrist and founder of psychoanalysis."
+    ],
     "note": "Declared occupation order picks 'essayist'; he's a psychiatrist."
   },
   "Q5685": {
-    "hints": ["A writer.", "Playwright.", "Russian dramatist and author."],
+    "hints": [
+      "A writer.",
+      "Playwright.",
+      "Russian dramatist and author."
+    ],
     "note": "Picked 'physician'; Chekhov is famous as a dramatist/author."
   },
   "Q450675": {
-    "hints": ["A religious figure.", "Religious leader.", "Pope."],
+    "hints": [
+      "A religious figure.",
+      "Religious leader.",
+      "Pope."
+    ],
     "note": "Picked 'writer'; he is the Pope."
   },
   "Q868": {
-    "hints": ["A philosopher.", "Classical Greek polymath.", "Father of formal logic, he wrote foundational works on physics, biology, ethics, and poetics."],
+    "hints": [
+      "A philosopher.",
+      "Classical Greek polymath.",
+      "Father of formal logic, he wrote foundational works on physics, biology, ethics, and poetics."
+    ],
     "note": "Polymath picked 'biologist'; primarily a philosopher. Hints hand-curated vague->specific."
   },
   "Q9061": {
-    "hints": ["A philosopher.", "Economist.", "German-born philosopher."],
+    "hints": [
+      "A philosopher.",
+      "Economist.",
+      "German-born philosopher."
+    ],
     "note": "'figure in science' is a stretch; he's a philosopher/economist."
   },
   "Q937": {
-    "hints": ["A figure in science.", "Physicist.", "German-born theoretical physicist."],
+    "hints": [
+      "A figure in science.",
+      "Physicist.",
+      "German-born theoretical physicist."
+    ],
     "note": "Picked 'inventor'; Einstein is a physicist."
   },
   "Q991": {
-    "hints": ["A writer.", "Novelist.", "Russian novelist."],
+    "hints": [
+      "A writer.",
+      "Novelist.",
+      "Russian novelist."
+    ],
     "note": "Picked 'poet'; Dostoyevsky is a novelist."
   },
   "Q7245": {
-    "hints": ["A writer.", "Author.", "American author and humorist."],
+    "hints": [
+      "A writer.",
+      "Author.",
+      "American author and humorist."
+    ],
     "note": "Picked 'journalist'; better known as an author."
   },
   "Q8007": {
-    "hints": ["A political or military leader.", "Politician.", "President of the United States."],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "President of the United States."
+    ],
     "note": "Picked 'lawyer'; FDR is a president/politician."
   },
   "Q9682": {
-    "hints": ["A political or military leader.", "Monarch.", "Queen of the United Kingdom."],
+    "hints": [
+      "A political or military leader.",
+      "Monarch.",
+      "Queen of the United Kingdom."
+    ],
     "note": "Generated position label was the obscure 'Monarch of the Dominion of Ceylon'."
   },
   "Q8409": {
-    "hints": ["A political or military leader.", "Military commander.", "King of Macedonia."],
-    "note": "Picked 'politician'; primarily a military commander."
+    "hints": [
+      "A political leader.",
+      "Military commander.",
+      "King of Macedonia."
+    ],
+    "note": "Picked 'politician'; primarily a military commander.",
+    "answer": "Alexander the Great",
+    "aliases": [
+      "Alexander III of Macedon",
+      "Alexander",
+      "Eskandar",
+      "Sikandar",
+      "Alexander of Macedonia",
+      "Alexander III"
+    ],
+    "birth": {
+      "lat": 40.76,
+      "lng": 22.519167,
+      "year": -355,
+      "place": "Pella"
+    },
+    "death": {
+      "lat": 32.5425,
+      "lng": 44.421111111,
+      "year": -322,
+      "place": "Babylon"
+    }
   },
-
-  "Q307": { "note": "Reviewed: 'science/Astronomer' is correct; the polymath auto-flag is a harmless false positive." },
-  "Q762": { "note": "Reviewed: 'artist/Painter' is correct; the polymath auto-flag is a harmless false positive." },
-
-  "Q352": { "exclude": true, "note": "Adolf Hitler" },
-  "Q855": { "exclude": true, "note": "Joseph Stalin" },
-  "Q1394": { "exclude": true, "note": "Vladimir Lenin" },
-  "Q5816": { "exclude": true, "note": "Mao Zedong" },
-  "Q4584": { "exclude": true, "note": "Benito Mussolini" },
-  "Q43129": { "exclude": true, "note": "Pol Pot" }
+  "Q307": {
+    "note": "Reviewed: 'science/Astronomer' is correct; the polymath auto-flag is a harmless false positive."
+  },
+  "Q762": {
+    "note": "Reviewed: 'artist/Painter' is correct; the polymath auto-flag is a harmless false positive."
+  },
+  "Q352": {
+    "exclude": true,
+    "note": "Adolf Hitler"
+  },
+  "Q855": {
+    "exclude": true,
+    "note": "Joseph Stalin"
+  },
+  "Q1394": {
+    "exclude": true,
+    "note": "Vladimir Lenin"
+  },
+  "Q5816": {
+    "exclude": true,
+    "note": "Mao Zedong"
+  },
+  "Q4584": {
+    "exclude": true,
+    "note": "Benito Mussolini"
+  },
+  "Q43129": {
+    "exclude": true,
+    "note": "Pol Pot"
+  }
 }

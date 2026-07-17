@@ -28,6 +28,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const REPO = join(__dirname, "..");
 const QUERY_FILE = join(__dirname, "queries", "answer-pool.rq");
 const OVERRIDES_FILE = join(__dirname, "overrides.json");
+const MANUAL_FILE = join(__dirname, "manual-entries.json");
 const OUT_FILE = join(REPO, "src", "data", "puzzles.json");
 
 const ENDPOINT = "https://query.wikidata.org/sparql";
@@ -426,6 +427,30 @@ async function main() {
   }
 
   await mkdir(dirname(OUT_FILE), { recursive: true });
+
+  // Merge durable hand-authored entries (scripts/manual-entries.json), which the
+  // fame-ranked Wikidata scan would never surface. Manual entries are appended
+  // and win on id/qid collision so hand edits are never clobbered by the scan.
+  let manual = [];
+  try {
+    manual = JSON.parse(await readFile(MANUAL_FILE, "utf8"));
+  } catch (err) {
+    if (err.code !== "ENOENT") throw err;
+  }
+  if (manual.length > 0) {
+    const seen = new Set(puzzles.map((p) => p.id));
+    const seenQids = new Set(puzzles.map((p) => p.qid));
+    let addedManual = 0;
+    for (const m of manual) {
+      if (seen.has(m.id) || seenQids.has(m.qid)) continue;
+      puzzles.push(m);
+      seen.add(m.id);
+      seenQids.add(m.qid);
+      addedManual++;
+    }
+    console.log(`  merged ${addedManual} manual entr(ies) from manual-entries.json`);
+  }
+
   await writeFile(OUT_FILE, JSON.stringify(puzzles, null, 2) + "\n", "utf8");
 
   const flagged = puzzles.filter((p) => p.needsReview).length;
