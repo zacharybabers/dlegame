@@ -146,5 +146,33 @@
   "Q43129": {
     "exclude": true,
     "note": "Pol Pot"
+  },
+  "Q5592": {
+    "answer": "Michelangelo",
+    "aliases": [
+      "Michael Agnolo",
+      "Michael Angel",
+      "Michael Angelo Bonalotti",
+      "Michael Angelo Bonnarotti",
+      "Michael Angelo Buona Rota",
+      "Michael Angelo Buona Roti"
+    ],
+    "hints": [
+      "An artist.",
+      "Sculptor and architect.",
+      "Painted the breathtaking ceiling of the Sistine Chapel in the Vatican."
+    ],
+    "birth": {
+      "lat": 43.640833333,
+      "lng": 11.985833333,
+      "year": 1475,
+      "place": "Caprese Michelangelo"
+    },
+    "death": {
+      "lat": 41.893055555,
+      "lng": 12.482777777,
+      "year": 1564,
+      "place": "Rome"
+    }
   }
 }
