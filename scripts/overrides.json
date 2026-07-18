@@ -174,5 +174,33 @@
       "year": 1564,
       "place": "Rome"
     }
+  },
+  "Q5593": {
+    "answer": "Pablo Picasso",
+    "aliases": [
+      "Pablo Ruiz Y Picasso",
+      "Pablo Ruiz",
+      "Pablo Ruys Picasso",
+      "Pablo Ruiz Picasso",
+      "Pablo Ruys",
+      "Picasso"
+    ],
+    "hints": [
+      "An artist.",
+      "Painter.",
+      "Spanish painter and sculptor best known for co-founding Cubism."
+    ],
+    "birth": {
+      "lat": 36.716666666,
+      "lng": -4.416666666,
+      "year": 1881,
+      "place": "Málaga"
+    },
+    "death": {
+      "lat": 43.594882,
+      "lng": 7.00506,
+      "year": 1973,
+      "place": "Mas Notre-Dame-de-Vie de Mougins"
+    }
   }
 }
