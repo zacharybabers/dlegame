@@ -59,10 +59,31 @@
   "Q991": {
     "hints": [
       "A writer.",
-      "Novelist.",
-      "Russian novelist."
+      "Regarded as one of the greatest novelists in both Russian and world literature.",
+      "Author of \"The Brothers Karamazov\"."
     ],
-    "note": "Picked 'poet'; Dostoyevsky is a novelist."
+    "note": "Picked 'poet'; Dostoyevsky is a novelist.",
+    "answer": "Fyodor Dostoyevsky",
+    "aliases": [
+      "Dostoievski",
+      "Fyodor Dostoievski",
+      "Fyodor Mikhaylovich Dostoievski",
+      "Fyodor Mikhaylovich Dostoyevsky",
+      "Fyodor Mikhailovich Dostoevsky",
+      "F.M. Dostoiewski"
+    ],
+    "birth": {
+      "lat": 55.783611111,
+      "lng": 37.611944444,
+      "year": 1821,
+      "place": "Mariinsky Hospital for the Poor"
+    },
+    "death": {
+      "lat": 59.95,
+      "lng": 30.316666666,
+      "year": 1881,
+      "place": "Saint Petersburg"
+    }
   },
   "Q7245": {
     "hints": [
@@ -201,6 +222,78 @@
       "lng": 7.00506,
       "year": 1973,
       "place": "Mas Notre-Dame-de-Vie de Mougins"
+    }
+  },
+  "Q1339": {
+    "answer": "Johann Sebastian Bach",
+    "aliases": [
+      "J S Bach"
+    ],
+    "hints": [
+      "A figure in music.",
+      "Composer.",
+      "Celebrated as a master of counterpoint, he composed over 1,000 pieces spanning orchestral, choral, and solo instrumental forms."
+    ],
+    "birth": {
+      "lat": 50.974722222,
+      "lng": 10.324444444,
+      "year": 1685,
+      "place": "Eisenach"
+    },
+    "death": {
+      "lat": 51.3406321,
+      "lng": 12.3747329,
+      "year": 1750,
+      "place": "Leipzig"
+    }
+  },
+  "Q8016": {
+    "answer": "Winston Churchill",
+    "aliases": [
+      "Winston Spencer Churchill",
+      "Charles Maurin",
+      "David Winter",
+      "The Honourable Sir Winston Spencer Churchill",
+      "Colonel Warden",
+      "Sir Leonard Spencer"
+    ],
+    "hints": [
+      "A political or military leader.",
+      "Politician.",
+      "Prime Minister of the United Kingdom."
+    ],
+    "birth": {
+      "lat": 51.841362665,
+      "lng": -1.360948307,
+      "year": 1874,
+      "place": "Blenheim Palace"
+    },
+    "death": {
+      "lat": 51.5004,
+      "lng": -0.182722,
+      "year": 1965,
+      "place": "Hyde Park Gate"
+    }
+  },
+  "Q9358": {
+    "answer": "Friedrich Nietzsche",
+    "aliases": [],
+    "hints": [
+      "A philosopher.",
+      "A German cultural critic.",
+      "Best known for concepts like the Übermensch (Superman) and his diagnosis of the decline of religion (\"God is dead\")."
+    ],
+    "birth": {
+      "lat": 51.240833333,
+      "lng": 12.116111111,
+      "year": 1844,
+      "place": "Röcken"
+    },
+    "death": {
+      "lat": 50.981111111,
+      "lng": 11.329444444,
+      "year": 1900,
+      "place": "Weimar"
     }
   }
 }
